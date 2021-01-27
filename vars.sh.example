@@ -2,4 +2,4 @@
 
 SESSION_ID="12345678-1234-1234-1234-123456789012"
 USER_ID="123456789"
-TARGET_DIR="~/music/artists"
+TARGET_DIR="~/music/artists" # make sure there is no trailing slash
