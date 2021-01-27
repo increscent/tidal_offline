@@ -1,4 +1,6 @@
 #!/bin/sh
+# Change working dir to this file's dir
+cd "$(dirname "$0")"
 
 # How to get the SESSION_ID and USER_ID:
 # curl -X POST -H "X-Tidal-Token: wc8j_yBJd20zOmx0" -d "username=<email>" -d "password=<password>" "https://api.tidalhifi.com/v1/login/username"
