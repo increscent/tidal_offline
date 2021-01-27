@@ -57,6 +57,4 @@ eval "$REQUEST" | node parse_tracks.js | while read TRACK; do
     if [ ! -f "$FILENAME" ]; then
         get_stream "$TRACK_ID" | download_track "$FILENAME"
     fi
-
-    exit
 done
